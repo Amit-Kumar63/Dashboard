@@ -1,0 +1,44 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    position: sticky;
+    top: 40px;
+}
+
+.userProfile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.userImage{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    object-fit: cover;
+}
+
+.userDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.username{
+    font-weight: 700;
+
+}
+
+.userTitle{
+    font-size: 18px;
+    color: var(--textSoft);
+}
+
+.list{
+    list-style: none;
+}
+.item{
+    color: var(--textSoft);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px 0;
+}
