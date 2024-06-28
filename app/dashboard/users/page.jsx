@@ -1,7 +1,10 @@
+import User from "@/app/ui/user/user"
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <User/>
+    </div>
   )
 }
 

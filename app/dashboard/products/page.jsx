@@ -1,7 +1,10 @@
+import Product from "@/app/ui/product/product"
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+      <Product/>
+    </div>
   )
 }
 
