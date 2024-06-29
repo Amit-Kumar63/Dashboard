@@ -33,7 +33,7 @@ const User = () => {
                     <td>Active</td>
                     <td>
                         <div className={styles.button}>
-                        <button className={styles.view}>View</button>
+                        <Link href={"/dashboard/users/singleUser"}><button className={styles.view}>View</button></Link>
                         <button className={styles.delete}>Delete</button>
                         </div>
                     </td>

@@ -1,11 +1,14 @@
 import styles from "@/app/ui/product/product.module.css"
 import Image from "next/image"
+import Link from "next/link"
 
 const Product = () => {
   return (
     <div className={styles.container}>
         <div className="top">
+            <Link href={"/dashboard/products/add"}>
             <button className={styles.addBtn}>ADD NEW</button>
+            </Link>
         </div>
         <table className={styles.table}>
             <thead>
@@ -32,7 +35,7 @@ const Product = () => {
                     <td>Available</td>
                     <td>
                         <div className={styles.button}>
-                            <button className={styles.view}>View</button>
+                            <Link href={"/dashboard/products/singleProduct"}><button className={styles.view}>View</button></Link>
                             <button className={styles.delete}>Delete</button>
                         </div>
                     </td>
